@@ -16,7 +16,7 @@ export const Controls = (props: ControlsComponentProps) => {
       ) : (
         <h2>Current player: {currentPlayer}</h2>
       )}
-      <div>
+      <div className='controls'>
         <button onClick={() => resetBoard()}>Restart</button>
         <button onClick={() => undoMove()}>Undo</button>
       </div>
